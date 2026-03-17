@@ -1,5 +1,7 @@
 # WAND Algorithm Execution Visualizer
 
+Demo: [https://frmeta.github.io/2026/03/07/top-k-retrieval-visualized.html](https://frmeta.github.io/2026/03/07/top-k-retrieval-visualized.html)
+
 An interactive visualization tool for the WAND (Weak AND) algorithm, which efficiently retrieves top-k documents from an inverted index in information retrieval systems.
 
 ## Overview
