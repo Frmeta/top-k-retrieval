@@ -6,14 +6,14 @@
     <title>WAND Execution Visualizer</title>
     <style>
         :root {
-            --bg-color: #f8fafc;
-            --panel-bg: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border-color: #e2e8f0;
-            --primary: #3b82f6;
-            --primary-hover: #2563eb;
-            --pointer-color: #ef4444;
+            --bg-color: rgb(29, 36, 42);
+            --panel-bg: #36376f;
+            --text-main: #e2e5e7;
+            --text-muted: #c9cdd3;
+            --border-color: #000000;
+            --primary: #c7961b;
+            --primary-hover: #f57906;
+            --pointer-color: #ffffff;
             --row-height: 90px;
         }
 
@@ -139,7 +139,7 @@
             display: flex;
             justify-content: space-between;
             padding: 8px 12px;
-            background-color: #f1f5f9;
+            background-color: var(--panel-bg);
             margin-bottom: 8px;
             border-radius: 6px;
             font-weight: 500;
@@ -201,7 +201,7 @@
         .posting-card {
             width: 60px;
             height: 50px;
-            background-color: #f8fafc;
+            background-color: var(--panel-bg);
             border: 1px solid var(--border-color);
             border-radius: 6px;
             margin-right: 15px;
@@ -257,7 +257,7 @@
             <div class="step-action" id="step-action-desc">INITIALIZE</div>
         </div>
         <div class="nav-controls">
-            <span style="font-size: 0.9em; color: #64748b; margin-right: 10px;">(Use ←/→ keys)</span>
+            <span style="font-size: 0.9em; color: #bec4cd; margin-right: 10px;">(Use ←/→ keys)</span>
             <button id="btn-prev" onclick="prevStep()">Previous</button>
             <button id="btn-next" onclick="nextStep()">Next</button>
         </div>

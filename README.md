@@ -1,6 +1,6 @@
 # WAND Algorithm Execution Visualizer
 
-Demo: [https://frmeta.github.io/2026/03/07/top-k-retrieval-visualized.html](https://frmeta.github.io/2026/03/07/top-k-retrieval-visualized.html)
+Demo: [https://top-k-retrieval.netlify.app/](https://top-k-retrieval.netlify.app/)
 
 An interactive visualization tool for the WAND (Weak AND) algorithm, which efficiently retrieves top-k documents from an inverted index in information retrieval systems.
 
