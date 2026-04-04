@@ -230,10 +230,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 1,
     "cur_doc": 1,
     "inverted_index": [
@@ -348,10 +348,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 1,
     "cur_doc": 1,
     "inverted_index": [
@@ -466,10 +466,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 1,
     "cur_doc": 1,
     "inverted_index": [
@@ -584,10 +584,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 1,
     "cur_doc": 1,
     "inverted_index": [
@@ -702,10 +702,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 2,
     "cur_doc": 1,
     "inverted_index": [
@@ -820,10 +820,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 2,
     "cur_doc": 1,
     "inverted_index": [
@@ -938,10 +938,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 3,
     "cur_doc": 1,
     "inverted_index": [
@@ -1056,10 +1056,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 3,
     "cur_doc": 1,
     "inverted_index": [
@@ -1174,10 +1174,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 6,
     "cur_doc": 1,
     "inverted_index": [
@@ -1292,10 +1292,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 6,
     "cur_doc": 1,
     "inverted_index": [
@@ -1410,10 +1410,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 6,
     "cur_doc": 1,
     "inverted_index": [
@@ -1528,10 +1528,10 @@ const stepsHistory = [
     "top_k": [
       [
         1,
-        1.2
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.2,
+    "threshold": 0,
     "pivot": 6,
     "cur_doc": 1,
     "inverted_index": [
@@ -1645,15 +1645,15 @@ const stepsHistory = [
     "step": "COMPUTE DOC 6",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 6,
     "cur_doc": 6,
     "inverted_index": [
@@ -1767,15 +1767,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 6,
     "cur_doc": 6,
     "inverted_index": [
@@ -1889,15 +1889,15 @@ const stepsHistory = [
     "step": "PIVOT CONSIDERED, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 6,
     "cur_doc": 6,
     "inverted_index": [
@@ -2011,15 +2011,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 6,
     "cur_doc": 6,
     "inverted_index": [
@@ -2133,15 +2133,15 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 8,
     "cur_doc": 6,
     "inverted_index": [
@@ -2255,15 +2255,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 8,
     "cur_doc": 6,
     "inverted_index": [
@@ -2377,15 +2377,15 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 8,
     "cur_doc": 6,
     "inverted_index": [
@@ -2499,15 +2499,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 8,
     "cur_doc": 6,
     "inverted_index": [
@@ -2621,15 +2621,15 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 10,
     "cur_doc": 6,
     "inverted_index": [
@@ -2743,15 +2743,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 10,
     "cur_doc": 6,
     "inverted_index": [
@@ -2865,15 +2865,15 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 11,
     "cur_doc": 6,
     "inverted_index": [
@@ -2987,15 +2987,15 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 11,
     "cur_doc": 6,
     "inverted_index": [
@@ -3109,15 +3109,15 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 12,
     "cur_doc": 6,
     "inverted_index": [
@@ -3231,15 +3231,15 @@ const stepsHistory = [
     "step": "END",
     "top_k": [
       [
-        1,
-        1.2
+        6,
+        3.5
       ],
       [
-        6,
-        1.0
+        1,
+        3.4000000000000004
       ]
     ],
-    "threshold": 1.0,
+    "threshold": 3.4000000000000004,
     "pivot": 12,
     "cur_doc": 6,
     "inverted_index": [

@@ -320,7 +320,7 @@
                 header.className = 'term-header';
                 header.innerHTML = `
                     <span class="term-name">${termData.term.toUpperCase()}</span>
-                    <span class="term-bound">UB: ${termData.upper_bound}</span>
+                    <span class="term-bound">UB: ${termData.upper_bound.toFixed(1)}</span>
                 `;
                 
                 // Postings list block
@@ -334,7 +334,7 @@
                     card.className = 'posting-card';
                     card.innerHTML = `
                         <span class="p-doc">D${posting[0]}</span>
-                        <span class="p-score">${posting[1]}</span>
+                        <span class="p-score">${typeof posting[1] === 'number' ? posting[1].toFixed(1) : posting[1]}</span>
                     `;
                     postingsList.appendChild(card);
                 });
@@ -362,7 +362,7 @@
             document.getElementById('step-action-desc').innerText = stepData.step || 'INITIALIZE';
             
             // 2. Update Global Variables
-            document.getElementById('val-threshold').innerText = stepData.threshold;
+            document.getElementById('val-threshold').innerText = stepData.threshold.toFixed(1);
             document.getElementById('val-pivot').innerText = stepData.pivot;
             document.getElementById('val-curdoc').innerText = stepData.cur_doc;
             
@@ -375,7 +375,7 @@
                 stepData.top_k.forEach(k => {
                     const li = document.createElement('li');
                     li.className = 'top-k-item';
-                    li.innerHTML = `<span>Doc ${k[0]}</span> <span>Score: ${k[1]}</span>`;
+                    li.innerHTML = `<span>Doc ${k[0]}</span> <span>Score: ${k[1].toFixed(1)}</span>`;
                     topKList.appendChild(li);
                 });
             }

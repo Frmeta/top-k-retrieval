@@ -111,12 +111,13 @@ for i in range(20):
             score += term["postings"][term["pointer"]][1]
         
         if score >= threshold:
-            top_k.append(term["postings"][term["pointer"]])
+            top_k.append((term["postings"][term["pointer"]][0], score))
             
             top_k = sorted(top_k, key= lambda x: x[1], reverse=True)
             if len(top_k) > k:
                 top_k.pop()
-            threshold = top_k[-1][1]
+            if len(top_k) == k:
+                threshold = top_k[-1][1]
     
     else:
         step = "NOT ENOUGH PIVOT MASS, ADVANCE"
