@@ -7,70 +7,26 @@ const stepsHistory = [
     "cur_doc": 0,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -79,30 +35,42 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            5,
+            0.1
           ],
           [
-            6,
-            1.0
+            9,
+            0.8
           ],
           [
-            7,
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 0,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -120,70 +88,26 @@ const stepsHistory = [
     "cur_doc": 0,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -192,30 +116,42 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -226,82 +162,38 @@ const stepsHistory = [
     ]
   },
   {
-    "step": "COMPUTE DOC 1",
+    "step": "COMPUTE DOC 4",
     "top_k": [
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
     "threshold": 0,
-    "pivot": 1,
-    "cur_doc": 1,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -310,30 +202,42 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -347,79 +251,35 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
     "threshold": 0,
-    "pivot": 1,
-    "cur_doc": 1,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -428,30 +288,42 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -465,79 +337,35 @@ const stepsHistory = [
     "step": "PIVOT CONSIDERED, ADVANCE",
     "top_k": [
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
     "threshold": 0,
-    "pivot": 1,
-    "cur_doc": 1,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
         "pointer": 1,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -546,30 +374,42 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -583,43 +423,31 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
     "threshold": 0,
-    "pivot": 1,
-    "cur_doc": 1,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 0,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.1
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
+            5,
+            0.5
           ],
           [
             10,
-            0.3
-          ],
-          [
-            12,
-            1.1
+            0.1
           ],
           [
             "last",
@@ -628,1254 +456,46 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
         "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            5,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 2,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 2,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 0,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 3,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 3,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 6,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 6,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 6,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 2,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 0,
-    "pivot": 6,
-    "cur_doc": 1,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 2,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "COMPUTE DOC 6",
-    "top_k": [
-      [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 3.4000000000000004,
-    "pivot": 6,
-    "cur_doc": 6,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 2,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 3.4000000000000004,
-    "pivot": 6,
-    "cur_doc": 6,
-    "inverted_index": [
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 2,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 1,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            9,
+            0.8
           ],
           [
             "last",
@@ -1889,115 +509,79 @@ const stepsHistory = [
     "step": "PIVOT CONSIDERED, ADVANCE",
     "top_k": [
       [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 6,
-    "cur_doc": 6,
+    "threshold": 0,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 1,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -2011,79 +595,31 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 6,
-    "cur_doc": 6,
+    "threshold": 0,
+    "pivot": 4,
+    "cur_doc": 4,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 1,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -2092,34 +628,46 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.4
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -2130,82 +678,38 @@ const stepsHistory = [
     ]
   },
   {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
+    "step": "COMPUTE DOC 5",
     "top_k": [
       [
-        6,
-        3.5
+        5,
+        0.9
       ],
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 8,
-    "cur_doc": 6,
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 4,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 1,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -2214,34 +718,46 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.4
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
           ],
           [
             "last",
@@ -2255,43 +771,35 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        6,
-        3.5
+        5,
+        0.9
       ],
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 8,
-    "cur_doc": 6,
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
     "inverted_index": [
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
         "pointer": 1,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -2300,34 +808,26 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 4,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
+            5,
+            0.3
           ],
           [
             8,
-            1.5
+            0.2
           ],
           [
-            11,
-            1.6
+            9,
+            0.3
           ],
           [
             "last",
@@ -2336,34 +836,18 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
         "postings": [
           [
-            1,
-            0.7
+            5,
+            0.1
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
+            9,
+            0.8
           ],
           [
             "last",
@@ -2374,46 +858,38 @@ const stepsHistory = [
     ]
   },
   {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
+    "step": "PIVOT CONSIDERED, ADVANCE",
     "top_k": [
       [
-        6,
-        3.5
+        5,
+        0.9
       ],
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 8,
-    "cur_doc": 6,
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
     "inverted_index": [
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -2422,34 +898,26 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 4,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
+            5,
+            0.3
           ],
           [
             8,
-            1.5
+            0.2
           ],
           [
-            11,
-            1.6
+            9,
+            0.3
           ],
           [
             "last",
@@ -2458,34 +926,18 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
         "postings": [
           [
-            1,
-            0.7
+            5,
+            0.1
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
+            9,
+            0.8
           ],
           [
             "last",
@@ -2499,83 +951,39 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        6,
-        3.5
+        5,
+        0.9
       ],
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 8,
-    "cur_doc": 6,
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 4,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 1,
         "postings": [
           [
-            1,
-            1.5
-          ],
-          [
-            2,
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -2584,30 +992,402 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
         "postings": [
           [
-            1,
-            1.2
+            5,
+            0.1
           ],
           [
-            6,
-            1.0
+            9,
+            0.8
           ],
           [
-            7,
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "PIVOT CONSIDERED, ADVANCE",
+    "top_k": [
+      [
+        5,
+        0.9
+      ],
+      [
+        4,
+        0.5
+      ]
+    ],
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "SORT",
+    "top_k": [
+      [
+        5,
+        0.9
+      ],
+      [
+        4,
+        0.5
+      ]
+    ],
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 0,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "PIVOT CONSIDERED, ADVANCE",
+    "top_k": [
+      [
+        5,
+        0.9
+      ],
+      [
+        4,
+        0.5
+      ]
+    ],
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "SORT",
+    "top_k": [
+      [
+        5,
+        0.9
+      ],
+      [
+        4,
+        0.5
+      ]
+    ],
+    "threshold": 0.5,
+    "pivot": 5,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
           ],
           [
             "last",
@@ -2621,47 +1401,571 @@ const stepsHistory = [
     "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
     "top_k": [
       [
-        6,
-        3.5
+        5,
+        0.9
       ],
       [
-        1,
-        3.4000000000000004
+        4,
+        0.5
       ]
     ],
-    "threshold": 3.4000000000000004,
+    "threshold": 0.5,
+    "pivot": 9,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 3,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "SORT",
+    "top_k": [
+      [
+        5,
+        0.9
+      ],
+      [
+        4,
+        0.5
+      ]
+    ],
+    "threshold": 0.5,
+    "pivot": 9,
+    "cur_doc": 5,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 3,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "COMPUTE DOC 9",
+    "top_k": [
+      [
+        9,
+        1.1
+      ],
+      [
+        5,
+        0.9
+      ]
+    ],
+    "threshold": 0.9,
+    "pivot": 9,
+    "cur_doc": 9,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 3,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "SORT",
+    "top_k": [
+      [
+        9,
+        1.1
+      ],
+      [
+        5,
+        0.9
+      ]
+    ],
+    "threshold": 0.9,
+    "pivot": 9,
+    "cur_doc": 9,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 3,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "PIVOT CONSIDERED, ADVANCE",
+    "top_k": [
+      [
+        9,
+        1.1
+      ],
+      [
+        5,
+        0.9
+      ]
+    ],
+    "threshold": 0.9,
+    "pivot": 9,
+    "cur_doc": 9,
+    "inverted_index": [
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 4,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "SORT",
+    "top_k": [
+      [
+        9,
+        1.1
+      ],
+      [
+        5,
+        0.9
+      ]
+    ],
+    "threshold": 0.9,
+    "pivot": 9,
+    "cur_doc": 9,
+    "inverted_index": [
+      {
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 1,
+        "postings": [
+          [
+            5,
+            0.1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
+        "postings": [
+          [
+            4,
+            0.1
+          ],
+          [
+            5,
+            0.5
+          ],
+          [
+            10,
+            0.1
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 4,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
+    "top_k": [
+      [
+        9,
+        1.1
+      ],
+      [
+        5,
+        0.9
+      ]
+    ],
+    "threshold": 0.9,
     "pivot": 10,
-    "cur_doc": 6,
+    "cur_doc": 9,
     "inverted_index": [
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            1.5
+            5,
+            0.1
           ],
           [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
+            9,
+            0.8
           ],
           [
             "last",
@@ -2670,66 +1974,50 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.1
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
+            0.1
           ],
           [
-            11,
-            1.8
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 4,
+        "postings": [
+          [
+            4,
+            0.4
+          ],
+          [
+            5,
+            0.3
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",
@@ -2743,79 +2031,35 @@ const stepsHistory = [
     "step": "SORT",
     "top_k": [
       [
-        6,
-        3.5
+        9,
+        1.1
       ],
       [
-        1,
-        3.4000000000000004
+        5,
+        0.9
       ]
     ],
-    "threshold": 3.4000000000000004,
+    "threshold": 0.9,
     "pivot": 10,
-    "cur_doc": 6,
+    "cur_doc": 9,
     "inverted_index": [
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 3,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.1
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -2824,400 +2068,46 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            1.5
+            5,
+            0.1
           ],
           [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
+            9,
+            0.8
           ],
           [
             "last",
             0
           ]
         ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 3.4000000000000004,
-    "pivot": 11,
-    "cur_doc": 6,
-    "inverted_index": [
+      },
       {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 5,
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 4,
         "postings": [
           [
-            1,
-            0.7
+            4,
+            0.4
           ],
           [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
             8,
-            1.5
+            0.2
           ],
           [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "SORT",
-    "top_k": [
-      [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 3.4000000000000004,
-    "pivot": 11,
-    "cur_doc": 6,
-    "inverted_index": [
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 3,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            9,
             0.3
-          ],
-          [
-            12,
-            1.1
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "step": "NOT ENOUGH PIVOT MASS, ADVANCE",
-    "top_k": [
-      [
-        6,
-        3.5
-      ],
-      [
-        1,
-        3.4000000000000004
-      ]
-    ],
-    "threshold": 3.4000000000000004,
-    "pivot": 12,
-    "cur_doc": 6,
-    "inverted_index": [
-      {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            1.2
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            7,
-            0.5
-          ],
-          [
-            10,
-            0.6
-          ],
-          [
-            11,
-            1.8
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            1.5
-          ],
-          [
-            2,
-            0.4
-          ],
-          [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
-            0.3
-          ],
-          [
-            12,
-            1.1
           ],
           [
             "last",
@@ -3231,43 +2121,35 @@ const stepsHistory = [
     "step": "END",
     "top_k": [
       [
-        6,
-        3.5
+        9,
+        1.1
       ],
       [
-        1,
-        3.4000000000000004
+        5,
+        0.9
       ]
     ],
-    "threshold": 3.4000000000000004,
-    "pivot": 12,
-    "cur_doc": 6,
+    "threshold": 0.9,
+    "pivot": "last",
+    "cur_doc": 9,
     "inverted_index": [
       {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "pointer": 5,
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            1.2
+            4,
+            0.1
           ],
           [
-            6,
-            1.0
-          ],
-          [
-            7,
+            5,
             0.5
           ],
           [
             10,
-            0.6
-          ],
-          [
-            11,
-            1.8
+            0.1
           ],
           [
             "last",
@@ -3276,70 +2158,46 @@ const stepsHistory = [
         ]
       },
       {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "pointer": 5,
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "pointer": 2,
         "postings": [
           [
-            1,
-            1.5
+            5,
+            0.1
           ],
           [
-            2,
+            9,
+            0.8
+          ],
+          [
+            "last",
+            0
+          ]
+        ]
+      },
+      {
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "pointer": 4,
+        "postings": [
+          [
+            4,
             0.4
           ],
           [
-            3,
-            0.6
-          ],
-          [
-            6,
-            1.0
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            11,
-            1.6
-          ],
-          [
-            "last",
-            0
-          ]
-        ]
-      },
-      {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "pointer": 5,
-        "postings": [
-          [
-            1,
-            0.7
-          ],
-          [
-            3,
-            1.0
-          ],
-          [
-            6,
-            1.5
-          ],
-          [
-            8,
-            1.5
-          ],
-          [
-            10,
+            5,
             0.3
           ],
           [
-            12,
-            1.1
+            8,
+            0.2
+          ],
+          [
+            9,
+            0.3
           ],
           [
             "last",

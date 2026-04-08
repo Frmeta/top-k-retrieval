@@ -6,24 +6,24 @@ import json
 # Inverted Index Setup
 inverted_index = [
     {
-        "term": "hujan",
-        "doc_freq": 6,
-        "upper_bound": 1.6,
-        "postings": [(1, 1.5), (2, 0.4), (3, 0.6), (6, 1.0), (8, 1.5), (11, 1.6), ("last", 0)],
+        "term": "cerdas",
+        "doc_freq": 4,
+        "upper_bound": 0.4,
+        "postings": [(4, 0.4), (5, 0.3), (8, 0.2), (9, 0.3), ("last", 0)],
         "pointer": 0
     },
     {
-        "term": "turun",
-        "doc_freq": 6,
-        "upper_bound": 1.5,
-        "postings": [(1, 0.7), (3, 1.0), (6, 1.5), (8, 1.5), (10, 0.3), (12, 1.1), ("last", 0)],
+        "term": "buatan",
+        "doc_freq": 2,
+        "upper_bound": 0.8,
+        "postings": [(5, 0.1), (9, 0.8), ("last", 0)],
         "pointer": 0
     },
     {
-        "term": "deras",
-        "doc_freq": 5,
-        "upper_bound": 1.8,
-        "postings": [(1, 1.2), (6, 1.0), (7, 0.5), (10, 0.6), (11, 1.8), ("last", 0)],
+        "term": "manusia",
+        "doc_freq": 3,
+        "upper_bound": 0.5,
+        "postings": [(4, 0.1), (5, 0.5), (10, 0.1), ("last", 0)],
         "pointer": 0
     }
 ]
@@ -72,8 +72,16 @@ record_step()
 
 end = False
 for i in range(20):
+
     # sort the terms in non decreasing order of DID
-    inverted_index = sorted(inverted_index, key=lambda x: x['postings'][x['pointer']][0])
+    inverted_index = sorted(
+    inverted_index,
+    key=lambda x: (
+        x["postings"][x["pointer"]][0] == last_id,
+        float("inf") if x["postings"][x["pointer"]][0] == last_id
+        else x["postings"][x["pointer"]][0]
+    )
+)
     step = "SORT"
     record_step()
     
@@ -83,6 +91,7 @@ for i in range(20):
         sum += term["upper_bound"]
         if sum >= threshold:
             p_term = term
+            break
     
     if p_term == None:
         step = "END"
@@ -108,10 +117,13 @@ for i in range(20):
         # compute score
         score = 0
         for term in inverted_index:
-            score += term["postings"][term["pointer"]][1]
+            if pivot == term["postings"][term["pointer"]][0]:
+                score += term["postings"][term["pointer"]][1]
+            else:
+                break
         
         if score >= threshold:
-            top_k.append((term["postings"][term["pointer"]][0], score))
+            top_k.append((pivot, score))
             
             top_k = sorted(top_k, key= lambda x: x[1], reverse=True)
             if len(top_k) > k:
@@ -125,7 +137,7 @@ for i in range(20):
         for j in range(inverted_index[0]["pointer"]+1, len(inverted_index[0]["postings"])):
             if inverted_index[0]["postings"][j][0] == last_id:
                 inverted_index[0]["pointer"] = j
-                end = True
+                # end = True
                 break
             if inverted_index[0]["postings"][j][0] >= pivot:
                 inverted_index[0]["pointer"] = j
